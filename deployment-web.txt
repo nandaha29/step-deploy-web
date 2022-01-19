@@ -1,0 +1,53 @@
+HEROKU
+- buat akun @ https://dashboard.heroku.com/
+- buat -> Create new app
+- ikuti intruksi di web nya
+- $ heroku login -i 
+- $ git init
+- $ heroku git:remote -a web-corona
+- $ git add .
+- $ git commit -am "deploy heroku"
+- $ git push heroku master
+- $ git push heroku main
+- well done
+
+GITHUB-PAGES (React-end)
+- buat @github.com
+- buat nama repo
+- $ npm install --save gh-pages
+- $ git add .
+- $ git commit -m "first"
+- $ git remote add origin https://github.com/nandaha29/nanda-web.git https://github.com/namaAkun/namaProject.git
+- $ git push -u origin master
+- refresh page githubnya
+- ada file nya
+- pergi ke setting lalu ke "Github Pages" ganti ke "master branch"
+- $ code . 
+- setting pakcage.json
+	+   "homepage": "https://myusername.github.io/my-app",
+	+   "predeploy": "npm run build",
+	+   "deploy": "gh-pages -d build",	
+- $ git add .
+- $ git commit -m "add Github Pages config"
+- $ npm run deploy
+- cek webpage, cek link (keluarnya Readme)
+- pergi ke setting, lalu ke "Github Pages" ganti k	e "gh-pages branch"
+- refresh link
+- note: jika ada perubahan di kodingan lakukan -> $ npm run deploy 
+- well done
+
+NOTE
+- cek akun yg mau di push -> $ git remote -v
+- tuk hapus akun $ git remote rm origin
+- kalo ngeyel -> $ git push origin master --force
+- err nya "error: src refspec master does not match any" -> $ git show-ref , from $ git push origin HEAD:master ,to $ git push origin HEAD:main
+- update commit karena typo ->  git commit --amend -m "update commit"
+
+GITHUB BIASA
+- buat repo
+- $ git init
+- $ git add .
+- $ git commit -m "minus taging + modal"
+- $ git remote add origin https://github.com/nandaha29/coco-mobile-apps.git https://github.com/nandaha29/BismillahSukses-hiedescom2k21.git https://github.com/namaAkun/namaProject.git
+- $ git push -u origin master
+

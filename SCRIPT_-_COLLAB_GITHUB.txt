@@ -1,0 +1,55 @@
+===CARA BUAT KOLABORASI / PUSH KODINGAN DARI LOKAL KE REPO UPSTREAM/REPO ORANG========
+
+1. $ git clone project (clone project ke lokal)
+2. buka di vscode atau text editor kesayanganmu
+3. $ git checkout -b nama-branch (buat branch baru)
+4. $ git add . (buat seleksi semua file)
+5. $ git commit -m "commitnya apa"
+
+=====================================================================================
+$ git remote -v
+origin  https://github.com/rakhacimano/BismillahSukses-hiedescom2k21.git (fetch)
+origin  https://github.com/rakhacimano/BismillahSukses-hiedescom2k21.git (push)
+upstream        https://github.com/nandaha29/BismillahSukses-hiedescom2k21.git (fetch)
+upstream        https://github.com/nandaha29/BismillahSukses-hiedescom2k21.git (push)
+======================================================================================
+
+6. $ git remote add upstream url-upstream (ini buat remote ke repo upstream/pemilik repo utama)
+7. $ git push upstream nama-branch (buat push codingan ke repo upstream/pemilik repo utama)
+
+
+=====CARA BUAT MERGE & PULL REQUEST===========
+1.0 MASUK GITHUB UPSTREAM/REPO PEMILIK UTAMA
+1.1 PENCET OPSI/MENU PULL REQUEST (LETAKNYA SEBELAH CODE)
+2.  PENCET TOMBOL HIJAU NEW PULL REQUEST
+3.0 https://media.discordapp.net/attachments/861406257290543115/884706569718222938/unknown.png?width=886&height=498 (KAYAK DI SINI YA GAIS)
+3.1 https://media.discordapp.net/attachments/861406257290543115/884707184473161758/unknown.png?width=886&height=498 (HASIL PENCET LINK BRANCH COMPARISONS)
+4.  PENCET TOMBOL CREATE PULL REQUEST (YANG WARNA IJO)
+5.  https://media.discordapp.net/attachments/861406257290543115/884707689165369374/unknown.png?width=886&height=498 (HASILNYA GINI YA GES)
+6.  PENCET TOMBOL CREATE PULL REQUEST WARNA IJO (JANGAN LUPA ISI KOMEN PULL-NYA)
+7.  TADAAA! ANDA SUDAH MELAKUKAN REQUEST PULL KE
+8.  https://media.discordapp.net/attachments/861406257290543115/884708127906349106/unknown.png?width=886&height=498 (PENCET TOMBOL HIJAU MERGE PULL REQUEST)
+9.  KALAU DISETUJUI, MAKA PROSES MERGE SUKSES!!
+10. SELAMAT! 
+
+========= DARI MAS HALHA ===========
+1. git commit -am "commit message"
+2. git pull origin master
+3. git push origin coba-branch
+-> ngeyel? -> $ git push -u origin coba-branch --force
+4. pindah ke repo github, bikin merge request ke branch master
+5. approve merge request
+
+----penulisan git push dan pull
+"push"
+$ git push [nama-branch]
+misalkan
+git push new-feature
+
+"pull"
+$ git pull [nama-branch]
+misalkan
+git pull master
+
+commit -> git commit -am "add suku page, fixing footer responsive"
+
