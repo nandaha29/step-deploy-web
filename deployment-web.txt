@@ -42,6 +42,7 @@ NOTE
 - kalo ngeyel -> $ git push origin master --force
 - err nya "error: src refspec master does not match any" -> $ git show-ref , from $ git push origin HEAD:master ,to $ git push origin HEAD:main
 - update commit karena typo ->  git commit --amend -m "update commit"
+- to revert codingan -> $ git checkout [kode git bash]
 
 GITHUB BIASA
 - buat repo
