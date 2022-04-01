@@ -53,3 +53,19 @@ git pull master
 
 commit -> git commit -am "add suku page, fixing footer responsive"
 
+======== DARI MAS HASHIMY ==========
+Urutan Contribute Project
+Fork -> clone repo forknya (origin; alias repo kamu) -> set upstream (git remote add upstream URL_REPO_MOKLETDEV) -> git pull upstream develop -> proses ngoding -> git add -A & git commit & git push origin develop (
+git add .
+git commit -m "add blog"
+git push origin develop
+) -> pull request (repo fork kamu)
+
+======== DARI MAS YUSRIL ==========
+Cara Update Kodingan via VSCode
+- klik tab Git
+- klik titik 3 di tab Source Control
+- pilih Pull Push
+- lalu Pull From di klik
+- klik yg github Upstream
+- pilih branch yang mau di pull
