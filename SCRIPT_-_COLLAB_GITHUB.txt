@@ -69,3 +69,9 @@ Cara Update Kodingan via VSCode
 - lalu Pull From di klik
 - klik yg github Upstream
 - pilih branch yang mau di pull
+
+-------------------------------- INI KALO PUSH AJA TANPA BRANCH
+- clone
+- git add . (isi ke staging)
+- git commit-m "apaan"
+- git push origin main
